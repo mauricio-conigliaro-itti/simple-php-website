@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v3 # Actualizado a la última versión
 
     - name: Set up PHP
-      uses: actions/setup-php@v2 # Usa la última versión estable de esta acción
+      uses: shivammathur/setup-php@v2 # Usa la última versión estable de esta acción
       with:
         php-version: '8.1' # Especifica la última versión de PHP, ajusta según necesidad
         tools: composer, phpunit # Opcional: Instala herramientas adicionales
