@@ -31,5 +31,5 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args:
-          -Dsonar.projectKey="Agregue su key"
-          -Dsonar.organization="Agregue su key"
+          -Dsonar.projectKey=mauricio-conigliaro-itti_simple-php-website
+          -Dsonar.organization=mauricio-conigliaro-itti
